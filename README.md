@@ -13,6 +13,8 @@ If you're developing a production application, we recommend updating the configu
 
 * Configure the top-level `parserOptions` property as follows:
 
+* Add .env file with your Github API token on the root folder
+
 ```js
 export default {
   // other rules...
@@ -28,6 +30,15 @@ export default {
 * Replace `plugin:@typescript-eslint/recommended` with `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`.
 * Optionally, add `plugin:@typescript-eslint/stylistic-type-checked`.
 * Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` and `plugin:react/jsx-runtime` to the `extends` list.
+
+## Demo Video
+Video demo: https://youtu.be/dQszX7Dl8FM
+
+## Deployed App
+https://candidate-search-git.onrender.com/
+
+## Author
+https://github.com/Jamilett
 
 ---
 © 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
